@@ -8,18 +8,30 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.trota.saleshandbook.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_store"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.trota.saleshandbook.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_book"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.trota.saleshandbook.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_order"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_in_out_come"
+        android:name="com.trota.saleshandbook.ui.come.InOutComeFragment"
+        android:label="@string/title_in_out_come"
+        tools:layout="@layout/fragment_in_out_come" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.trota.saleshandbook.ui.more.MoreFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_more" />
 </navigation>

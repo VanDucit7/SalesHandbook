@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">SalesHandBook</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Sales HandBook</string>
+    <string name="title_store">Store</string>
+    <string name="title_book">PayBook</string>
+    <string name="title_order">Order</string>
+    <string name="title_in_out_come">Come</string>
+    <string name="title_account">Account</string>
 </resources>
